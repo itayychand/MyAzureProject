@@ -3,7 +3,7 @@
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Free Trial(94f57fac-01ca-4e66-8b89-20f34c8a05ee)'
-    appType: 'webApp'
+    appType: 'webApp' #solution: '**\*.sln' 
     WebAppName: 'DevOps20200420021721'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Build and test ASP.NET Core projects targeting .NET Core.
